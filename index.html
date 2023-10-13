@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand md- bg-primary">
+    <nav class="navbar navbar-expand-md bg-primary">
         <div class="container">
           <a class="navbar-brand text-white" href="#">Filmotopia</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,8 +31,10 @@
         </div>
       </nav> 
 
+      
+
       <div class="container">
-      <div id="carouselExampleCaptions" class="carousel slide">
+      <div id="carouselExampleCaptions" class="carousel slide d-none d-md-grid">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/Slider.png" class="d-block w-100" alt="Slider">
@@ -65,18 +67,18 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <h1 class="podbanner my-3">Na co se vydat do kina</h1>
+      <h1 class="podbanner my-3 text-center text-sm-start">Na co se vydat do kina</h1>
 
       
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 flex -wrap">
         <div class="col">
           <div class="card h-100">
             <img src="images/obr6.png" class="card-img-top" alt="obr6">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text d-none d-md-grid">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
-           
           </div>
         </div>
         <div class="col">
@@ -84,9 +86,9 @@
             <img src="images/obr1.png" class="card-img-top" alt="">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text d-none d-md-grid">This card has supporting text below as a natural lead-in to additional content.</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
-          
           </div>
         </div>
         <div class="col">
@@ -94,9 +96,9 @@
             <img src="images/obr2.png" class="card-img-top" alt="obr2">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text d-none d-md-grid">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
-           
           </div>
         </div>
 
@@ -105,9 +107,11 @@
             <img src="images/obr3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text d-none d-md-grid">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
-           
           </div>
         </div>
         <div class="col">
@@ -115,9 +119,11 @@
             <img src="images/obr4.png" class="card-img-top" alt="obr4">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text d-none d-md-grid">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
-            
           </div>
         </div>
         <div class="col">
@@ -125,43 +131,49 @@
             <img src="images/obr5.png" class="card-img-top" alt="obr5">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text d-none d-md-grid">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
+              <button type="button" class="btn btn-primary">Primary</button>
             </div>
-            
           </div>
         </div>
       </div>
       
       <h2 class="my-3">Nejnovější recenze našich kritiků</h2>
 
-      <div class="cards d-flex">
+      <div class="cards d-flex flex-column flex-md-row">
         
-      <div class="card bg-success bg-opacity-25" style="width: auto;">
+      <div class="card bg-success bg-opacity-25 me-md-2 mb-2 mb-md-none " style="width: auto;">
         <div class="card-body">
-          <h5 class="card-title text-center">Card title</h5>
+          <h5 class="card-title text-center text-success fs-2 fw-2">KLADNÉ RECENZE</h5>
 
           <div class="card mb-3 bg-transparent border border-0 " style="width:auto;">
             <div class="row g-0">
-              <div class="col-md-2">
-                <img src="images/avatar.png" class="img-fluid rounded-start" alt="avatar">
+              <div class="col-md-1">
+                <img src="images/avatar.png" class="img-fluid rounded-start d-none d-md-grid" alt="avatar">
               </div>
-              <div class="col-md-10">
+              <div class="col-md-11">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">René Trumpeta</h5>
+                  <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="card mb-3 bg-transparent border border-0 " style="width:auto;">
             <div class="row g-0">
-              <div class="col-md-2">
-                <img src="images/avatar.png" class="img-fluid rounded-start" alt="avatar">
+              <div class="col-md-1">
+                <img src="images/avatar.png" class="img-fluid rounded-start d-none d-md-grid" alt="avatar">
               </div>
-              <div class="col-md-10">
+              <div class="col-md-11">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">René Trumpeta</h5>
+                  <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
                 </div>
               </div>
             </div>
@@ -169,13 +181,15 @@
 
           <div class="card mb-3 bg-transparent border border-0 " style="width:auto;">
             <div class="row g-0">
-              <div class="col-md-2">
-                <img src="images/avatar.png" class="img-fluid rounded-start" alt="avatar">
+              <div class="col-md-1">
+                <img src="images/avatar.png" class="img-fluid rounded-start d-none d-md-grid" alt="avatar">
               </div>
-              <div class="col-md-10">
+              <div class="col-md-11">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">René Trumpeta</h5>
+                  <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
                 </div>
               </div>
             </div>
@@ -186,32 +200,36 @@
         
       </div>
 
-      <div class="card bg-danger bg-opacity-25" style="width: auto;">
+      <div class="card bg-danger bg-opacity-25 ms-md-2 mb-2 mb-md-none" style="width: auto;">
         <div class="card-body">
-          <h5 class="card-title text-center">Card title</h5>
+          <h5 class="card-title text-center text-danger fs-2 fw-2">ZÁPORNÉ RECENZE</h5>
 
           <div class="card mb-3 bg-transparent border border-0 " style="width:auto;">
             <div class="row g-0">
-              <div class="col-md-2">
-                <img src="images/avatar.png" class="img-fluid rounded-start" alt="avatar">
+              <div class="col-md-1">
+                <img src="images/avatar.png" class="img-fluid rounded-start d-none d-md-grid" alt="avatar">
               </div>
-              <div class="col-md-10">
+              <div class="col-md-11">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">René Trumpeta</h5>
+                  <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="card mb-3 bg-transparent border border-0 " style="width:auto;">
             <div class="row g-0">
-              <div class="col-md-2">
-                <img src="images/avatar.png" class="img-fluid rounded-start" alt="avatar">
+              <div class="col-md-1">
+                <img src="images/avatar.png" class="img-fluid rounded-start d-none d-md-grid" alt="avatar">
               </div>
-              <div class="col-md-10">
+              <div class="col-md-11">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">René Trumpeta</h5>
+                  <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
                 </div>
               </div>
             </div>
@@ -219,13 +237,15 @@
 
           <div class="card mb-3 bg-transparent border border-0 " style="width:auto;">
             <div class="row g-0">
-              <div class="col-md-2">
-                <img src="images/avatar.png" class="img-fluid rounded-start" alt="avatar">
+              <div class="col-md-1">
+                <img src="images/avatar.png" class="img-fluid rounded-start d-none d-md-grid" alt="avatar">
               </div>
-              <div class="col-md-10">
+              <div class="col-md-11">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">René Trumpeta</h5>
+                  <p class="card-text">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque 
+                    ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, 
+                    tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate</p>
                 </div>
               </div>
             </div>
@@ -240,9 +260,34 @@
 
     </div>
     <h2 class="my-3">Chcete se stát naším kritikem? Napište nám!</h2>
+  <div class="col-md-6">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Vaše e-mailová adresa</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="martinez@cupakabra.com">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Vaše jméno</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ricky Martin">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Napište, proč byste se chtěl stát kritikem</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Souhlasím se zpracováním osobních údajů
+      </label>
+    </div>
+
+    <button type="button" class="btn btn-primary mt-2">Odeslat</button>
+  </div>
 
       
-      <div class="paticka bg-primary p-1 text-center pb-4 pt-2 text-white">Tuto práci vypracoval Matěj Janáček, 2.G, negawatt.</div>
+    <div class="paticka bg-secondary p-1 text-center pb-4 pt-3 text-white mt-5">Tuto práci vypracoval Matěj Janáček, 2.G, 13.10.</div>
 
    
     </div>
